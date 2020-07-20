@@ -34,7 +34,7 @@ public class Init implements CommandLineRunner {
         userService.addUser(user);
 
         //Add Post to user called post
-        Post post = new Post("I love you Tota");
+        Post post = new Post("i love my world");
         post.setUser(user);
         postServices.addPost(post);
 
